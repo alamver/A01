@@ -4,7 +4,7 @@
   
   body {
     margin: 0;
-    font-family: "Lucida Grande";
+    font-family: "Baloo Thambi", cursive;
   }
   
   a {
@@ -15,6 +15,14 @@
     clear: left;
   }
   
+  h1 span{
+    color: red;
+  }
+  
+  p span{
+    color: red;
+  }
+
   .container {
     max-width: 1170px;
     width: 100%;
@@ -61,8 +69,7 @@
   }
   
   .facebook {
-    background-color: #3b5998;
-    margin-right: 10px;
+    background-color: #55acee;
   }
   
   .twitter {
