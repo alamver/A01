@@ -1,58 +1,109 @@
 /* Untuk Tablet */
 @media all and (max-width: 1000px) {
-    .lesson {
-      width: 50%;
-      margin-bottom: 50px;
-    }
-    
-    .top-wrapper h1 {
-      font-size: 32px;
-    }
-    
-    .heading h2 {
-      font-size: 20px;
-    }
+  .lesson {
+    width: 50%;
+    margin-bottom: 50px;
   }
-  
-  /* Untuk Smartphone */
-  @media all and (max-width: 670px) {
-    .lesson {
-      width: 100%;
-    }
-    
-    footer {
-      text-align: center;
-    }
-    
-    .btn {
-      width: 100%;
-    }
-    
-    .facebook {
-      margin-bottom: 10px;
-    }
-    
-    .top-wrapper {
-      text-align: left;
-    }
-    
-    /* Tambahkan CSS untuk header-right */
-    .header-right {
-      display: none;
-    }
-    
-    /* Tambahkan CSS untuk menu-icon */
-    .menu-icon {
-      display: block;
-    }
-    
-    .top-wrapper h1 {
-      font-size: 24px;
-      line-height: 36px;
-    }
-    
-    .top-wrapper p {
-      font-size: 14px;
-      line-height: 20px;
-    }
+
+  .top-wrapper h1 {
+    font-size: 32px;
   }
+
+  .heading h2 {
+    font-size: 20px;
+  }
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+  .lesson {
+    width: 100%;
+  }
+
+  footer {
+    text-align: center;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  .facebook {
+    margin-bottom: 10px;
+  }
+
+  .top-wrapper {
+    text-align: left;
+  }
+
+  /* Tambahkan CSS untuk header-right */
+  .header-right {
+    display: none;
+  }
+
+  /* Tambahkan CSS untuk menu-icon */
+  .menu-icon {
+    display: block;
+  }
+
+  .top-wrapper h1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  .top-wrapper p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+body {
+  font-family: "Baloo Thambi", cursive;
+}
+.wrapper {
+  width: 800px;
+  margin: auto;
+}
+.items {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  line-height: 100px;
+  text-align: center;
+  background-color: #0984e3;
+  float: left;
+  font-size: 100px;
+  padding: 20px;
+  color: #fff;
+  margin-top: 100px;
+}
+
+@keyframes animate {
+  from {
+    transform: translate(0px, 1000px);
+  }
+  to {
+    transform: translate(0px, 0px);
+  }
+}
+
+#items1 {
+  animation: animate 4s;
+}
+
+#items2 {
+  animation: animate 1s;
+}
+
+#items3 {
+  animation: animate 5s;
+}
+
+#items4 {
+  animation: animate 3s;
+}
+
+#items5 {
+  animation: animate 2s;
+  margin-left: 50px;
+}
