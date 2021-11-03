@@ -21,10 +21,15 @@
     padding: 0 15px;
     margin: 0 auto;
   }
+
+  .bg-trans{
+    background-color:rgba(0, 0, 0, 0.5);
+    padding: 10px 10px;
+  }
   
   .top-wrapper {
     padding: 180px 0 100px 0;
-    background-image: url(https://prog-8.com/images/html/advanced/top_en.png);
+    background-image: url(main3.png);
     background-size: cover;
     color: white;
     text-align: center;
