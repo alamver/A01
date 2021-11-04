@@ -3,6 +3,22 @@
   .top-wrapper h1 {
     font-size: 32px;
   }
+
+  .heading h2 {
+    font-size: 20px;
+  }
+
+  .lesson {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+
+  .members {
+    flex-direction: column;
+  }
+  .member {
+    margin: 50%;
+  }
 }
 
 /* Untuk Smartphone */
@@ -10,16 +26,9 @@
   .header-right {
     display: none;
   }
-  .header-left {
-    margin-top: 0;
-  }
 
   span.menu-icon {
     display: block;
-  }
-
-  footer {
-    text-align: center;
   }
 
   .btn {
@@ -28,8 +37,6 @@
 
   .top-wrapper {
     text-align: left;
-    height: auto;
-    width: auto;
   }
 
   .top-wrapper h1 {
@@ -40,5 +47,17 @@
   .top-wrapper p {
     font-size: 14px;
     line-height: 20px;
+  }
+
+  .lesson {
+    width: 100%;
+  }
+  footer {
+    text-align: center;
+  }
+  .members {
+    flex-direction: column;
+  }
+  .member {
   }
 }
