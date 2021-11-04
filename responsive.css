@@ -28,7 +28,7 @@
     width: 100%;
   }
 
-  .facebook {
+  .twitter {
     margin-bottom: 10px;
   }
 
@@ -42,7 +42,7 @@
   }
 
   /* Tambahkan CSS untuk menu-icon */
-  .menu-icon {
+  span.menu-icon {
     display: block;
   }
 
