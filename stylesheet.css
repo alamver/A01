@@ -350,11 +350,12 @@ span.menu-icon {
   margin: 0 auto;
   text-align: center;
   display: flex;
+  align-items: center;
 }
 
 .member {
   float: left;
-  width: 25%;
+  width: 33%;
   flex: auto;
 }
 
@@ -418,4 +419,8 @@ footer p {
 footer {
   padding-top: 30px;
   padding-bottom: 20px;
+}
+
+.task li {
+  list-style: none;
 }

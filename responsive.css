@@ -15,9 +15,11 @@
 
   .members {
     flex-direction: column;
+    align-items: center;
   }
   .member {
-    margin: 50%;
+    margin: 10px;
+    width: auto;
   }
 }
 
@@ -57,7 +59,9 @@
   }
   .members {
     flex-direction: column;
+    align-items: center;
   }
   .member {
+    margin-top: 0 auto;
   }
 }
